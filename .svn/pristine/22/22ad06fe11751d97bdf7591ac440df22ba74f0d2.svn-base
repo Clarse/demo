@@ -1,0 +1,18 @@
+package com.eohi.haixin.ui.work.adapter
+
+import android.app.Activity
+import com.eohi.haixin.base.BaseAdapter
+import com.eohi.haixin.databinding.ItemLzkSublistBinding
+import com.eohi.haixin.ui.work.model.LZKSubListModel
+
+class LzkSubAdapter(mContext: Activity, listDatas: ArrayList<LZKSubListModel>) :
+    BaseAdapter<ItemLzkSublistBinding, LZKSubListModel>(mContext, listDatas) {
+
+    override fun convert(v: ItemLzkSublistBinding, t: LZKSubListModel, position: Int) {
+        v.tvGx.text = t.gxms
+        v.tvTls.text = t.scsl
+        v.tvCfps.text = t.blsl
+        v.tvHgs.text = t.dqgxljbgsl
+    }
+
+}

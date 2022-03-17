@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_rectangular_white_3_bg"
+    android:paddingBottom="10dp">
+
+
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:text="待处理"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_yclx_text"
+        style="@style/item_text_name"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="异常类型："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_ycdj_text"
+        style="@style/item_text_name"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="异常等级："
+        app:layout_constraintEnd_toEndOf="@id/tv_yclx_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_yclx_text" />
+
+    <TextView
+        android:id="@+id/tv_jgdy_text"
+        style="@style/item_text_name"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="加工单元："
+        app:layout_constraintEnd_toEndOf="@id/tv_yclx_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_ycdj_text" />
+
+    <TextView
+        android:id="@+id/tv_sjcb_text"
+        style="@style/item_text_name"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="生产设备："
+        app:layout_constraintEnd_toEndOf="@id/tv_yclx_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_jgdy_text" />
+
+
+    <TextView
+        android:id="@+id/tv_hjr_text"
+        style="@style/item_text_name"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="呼叫人："
+        app:layout_constraintEnd_toEndOf="@id/tv_yclx_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_sjcb_text" />
+
+
+    <TextView
+        android:id="@+id/tv_ycsj_text"
+        style="@style/item_text_name"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="异常时间："
+        app:layout_constraintEnd_toEndOf="@id/tv_yclx_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_hjr_text" />
+
+
+    <TextView
+        android:id="@+id/tv_ycnr_text"
+        style="@style/item_text_name"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="异常内容："
+        app:layout_constraintEnd_toEndOf="@id/tv_yclx_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_ycsj_text" />
+
+
+    <TextView
+        android:id="@+id/tv_clr_text"
+        style="@style/item_text_name"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="处理人："
+        app:layout_constraintEnd_toEndOf="@id/tv_yclx_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_ycnr" />
+
+    <TextView
+        android:id="@+id/tv_clsj_text"
+        style="@style/item_text_name"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="处理时间："
+        app:layout_constraintEnd_toEndOf="@id/tv_yclx_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_clr_text" />
+
+    <TextView
+        android:id="@+id/tv_clms_text"
+        style="@style/item_text_name"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="处理描述："
+        app:layout_constraintEnd_toEndOf="@id/tv_yclx_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_clsj_text" />
+
+    <TextView
+        android:id="@+id/tv_yclx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/gray6"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_yclx_text"
+        app:layout_constraintStart_toEndOf="@id/tv_yclx_text"
+        app:layout_constraintTop_toTopOf="@id/tv_yclx_text" />
+
+
+    <TextView
+        android:id="@+id/tv_ycdj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray6"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_ycdj_text"
+        app:layout_constraintStart_toStartOf="@id/tv_yclx"
+        app:layout_constraintTop_toTopOf="@id/tv_ycdj_text" />
+
+    <TextView
+        android:id="@+id/tv_jgdy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray6"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_jgdy_text"
+        app:layout_constraintStart_toStartOf="@id/tv_yclx"
+        app:layout_constraintTop_toTopOf="@id/tv_jgdy_text" />
+
+    <TextView
+        android:id="@+id/tv_scsb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray6"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_sjcb_text"
+        app:layout_constraintStart_toStartOf="@id/tv_yclx"
+        app:layout_constraintTop_toTopOf="@id/tv_sjcb_text" />
+
+    <TextView
+        android:id="@+id/tv_hjr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray6"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_hjr_text"
+        app:layout_constraintStart_toStartOf="@id/tv_yclx"
+        app:layout_constraintTop_toTopOf="@id/tv_hjr_text" />
+
+    <TextView
+        android:id="@+id/tv_ycsj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray6"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_ycsj_text"
+        app:layout_constraintStart_toStartOf="@id/tv_yclx"
+        app:layout_constraintTop_toTopOf="@id/tv_ycsj_text" />
+
+
+    <TextView
+        android:id="@+id/tv_ycnr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray6"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/tv_yclx"
+        app:layout_constraintTop_toTopOf="@id/tv_ycnr_text" />
+
+    <TextView
+        android:id="@+id/tv_clr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray6"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_clr_text"
+        app:layout_constraintStart_toStartOf="@id/tv_yclx"
+        app:layout_constraintTop_toTopOf="@id/tv_clr_text" />
+
+
+    <TextView
+        android:id="@+id/tv_clsj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray6"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_clsj_text"
+        app:layout_constraintStart_toStartOf="@id/tv_yclx"
+        app:layout_constraintTop_toTopOf="@id/tv_clsj_text" />
+
+
+    <TextView
+        android:id="@+id/tv_clms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray6"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/tv_yclx"
+        app:layout_constraintTop_toTopOf="@id/tv_clms_text" />
+
+
+    <Button
+        android:id="@+id/btn_deal"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/shape_rectangular_deal"
+        android:text="处理"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_clms" />
+
+    <Button
+        android:id="@+id/btn_response"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/shape_rectangular_btn_bg_3"
+        android:text="响应"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@id/btn_deal"
+        app:layout_constraintTop_toTopOf="@id/btn_deal" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

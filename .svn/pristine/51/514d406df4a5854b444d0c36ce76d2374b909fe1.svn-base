@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout style="@style/item_text_container">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="工序:" />
+
+                <TextView
+                    android:id="@+id/tv_gx"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/item_text_container">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="报工数:" />
+
+                <TextView
+                    android:id="@+id/tv_bgs"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/item_text_container">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="合格数量:" />
+
+                <TextView
+                    android:id="@+id/tv_hgsl"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/item_text_container">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="不合格数量:" />
+
+                <TextView
+                    android:id="@+id/tv_bhgsl"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/item_text_container">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="班次:" />
+
+                <TextView
+                    android:id="@+id/tv_bc"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/item_text_container">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="操作工:" />
+
+                <TextView
+                    android:id="@+id/tv_czg"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/item_text_container">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="报工日期:" />
+
+                <TextView
+                    android:id="@+id/tv_bgrq"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/item_text_container">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="检验员:" />
+
+                <TextView
+                    android:id="@+id/tv_jyy"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/item_text_container">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="检验日期:" />
+
+                <TextView
+                    android:id="@+id/tv_jyrq"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/item_text_container">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="接单数量:" />
+
+                <TextView
+                    android:id="@+id/tv_jdsl"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/item_text_container">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="接单人:" />
+
+                <TextView
+                    android:id="@+id/tv_jdr"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/item_text_container">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="接单时间:" />
+
+                <TextView
+                    android:id="@+id/tv_jdsj"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/item_text_container"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    style="@style/item_text_name"
+                    android:text="备注:" />
+
+                <TextView
+                    android:id="@+id/tv_bz"
+                    style="@style/item_text_content" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

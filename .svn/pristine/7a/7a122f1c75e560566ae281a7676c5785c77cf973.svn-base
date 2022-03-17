@@ -1,0 +1,103 @@
+package com.eohi.haixin.ui.work.quality.unqualified
+
+import androidx.lifecycle.MutableLiveData
+import com.eohi.haixin.base.BaseViewModel
+import com.eohi.haixin.ui.work.model.*
+
+class UnQualifiedReportViewModel : BaseViewModel() {
+
+    val lzkDetailResult = MutableLiveData<ArrayList<LzkDetailResult>>()
+    val blxxResult = MutableLiveData<ArrayList<BlxxBean>>()
+    val gxResult = MutableLiveData<ArrayList<GxModel>>()
+    val personResult = MutableLiveData<ArrayList<PersonModel>>()
+    val postResult = MutableLiveData<ArrayList<SubmitResult>>()
+    var sblist = MutableLiveData<ArrayList<EquipmentModel>>()
+    var equipmentList = MutableLiveData<ArrayList<EquipmentsModel>>()
+    var jgdylist = MutableLiveData<ArrayList<ProcessingUnitModel>>()
+
+    //扫码得到生产人员
+    var person = MutableLiveData<ArrayList<PersonModel>>()
+    var perPerson = MutableLiveData<ArrayList<PersonModel>>()
+
+    fun getJgdy(cardno: String, gxno: String, equno: String) {
+        if (equno.isEmpty()) {
+            launchList(
+                { httpUtil.getJgdysb(cardno, gxno) },
+                jgdylist,
+                isShowLoading = true,
+                successCode = 200
+            )
+        } else {
+            launchList(
+                { httpUtil.getJgdy(cardno, gxno, equno) },
+                jgdylist,
+                isShowLoading = true,
+                successCode = 200
+            )
+        }
+    }
+
+    fun getAllEquipmentList(hashMap: HashMap<String, String>) {
+        launchList(
+            { httpUtil.getAllEquipments(hashMap) },
+            equipmentList,
+            isShowLoading = true,
+            successCode = 200
+        )
+    }
+
+    fun getSblist(companycode: String, userid: String) {
+        launchList(
+            { httpUtil.getSbxx(companycode, userid,"") },
+            sblist,
+            isShowLoading = true,
+            successCode = 200
+        )
+    }
+
+    fun getLzkDetail(cardno: String) {
+        launchList({ httpUtil.getLzkDetail(cardno) }, lzkDetailResult, true, successCode = 200)
+    }
+
+    fun getBlxx() {
+        launchList({ httpUtil.getBlxx() }, blxxResult, true)
+    }
+
+    fun getGx(cardno: String) {
+        launchList({ httpUtil.getGx(cardno) }, gxResult, true, successCode = 200)
+    }
+
+    //选择人员
+    fun getPerson(gsh: String, username: String) {
+        launchList(
+            { httpUtil.getPersonnelInfo(gsh, username) },
+            personResult,
+            true,
+            successCode = 200
+        )
+    }
+
+    //查询人员
+    fun findPerson(gsh: String, username: String) {
+        launchList(
+            { httpUtil.getPersonnelInfo(gsh, username) },
+            person,
+            isShowLoading = true,
+            successCode = 200
+        )
+    }
+
+    fun findPerPerson(gsh: String, username: String) {
+        launchList(
+            { httpUtil.getPersonnelInfo(gsh, username) },
+            perPerson,
+            isShowLoading = true,
+            successCode = 200
+        )
+    }
+
+    fun post(unQualifiedPostModel: UnQualifiedPostModel) {
+        launchList({ httpUtil.unQualifiedPost(unQualifiedPostModel) }, postResult, true)
+    }
+
+}

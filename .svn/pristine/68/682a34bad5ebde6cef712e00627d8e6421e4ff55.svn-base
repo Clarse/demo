@@ -1,0 +1,17 @@
+package com.eohi.haixin.ui.work.model
+
+data class LZKSubListModel(
+    val GXH: String,
+    val GXMS: String,
+    val BHGSL: Int,
+    val HGSL: Int,
+    val SCRID: String,
+    val SCRXM: String,
+    val BC: String,
+    val BGRQ: String,
+    val BGSL: Int,
+    val JYRQ: String,
+    val ZJRYID: String,
+    val ZJRY: String,
+    val BZ: String
+)

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/drawable/shape_rectangular_edit_bg.xml" value="0.2805" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_circulation_card.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_circulation_card_detail.xml" value="0.33" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_equipment_check.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_equipment_fault_confirm.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_equipment_fault_confirm_list.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_equipment_guarantee.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_equipment_maintenance.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_equipment_maintenance_list.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_equipment_maintenance_scan_list.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_equipment_repair.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_equipment_repair_list.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_finish_check.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_production_registration.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/activity_unqualified_report.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/dailog_lzk_jd.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/dialog_agv.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/dialog_lzk_jd.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/dialog_lzkmx.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/dialog_selectlist.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/fragment_tooling_recipientslist.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/item_lzk_sublist.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/app/src/main/res/layout/item_mx.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/YH/Desktop/xiaoxiao_Honeywell/zxinglibrary/src/main/res/layout/zxl_capture.xml" value="0.37135416666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://122.51.119.18:8443/svn/EOHI/app/2021/D2021002-MES-HX/CODE/xiaoxiao_Honeywell" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

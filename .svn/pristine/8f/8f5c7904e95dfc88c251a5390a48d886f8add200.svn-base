@@ -1,0 +1,46 @@
+package com.eohi.haixin.ui.work.adapter
+
+import android.app.Activity
+import android.app.AlertDialog
+import android.view.LayoutInflater
+import android.widget.TextView
+import com.eohi.haixin.R
+import com.eohi.haixin.base.BaseAdapter
+import com.eohi.haixin.databinding.ItemLzkSublistBinding
+import com.eohi.haixin.ui.work.model.LZKSubListModel
+import com.eohi.haixin.widget.clicks
+
+class LzkSubAdapter(mContext: Activity, listDatas: ArrayList<LZKSubListModel>) :
+    BaseAdapter<ItemLzkSublistBinding, LZKSubListModel>(mContext, listDatas) {
+
+    override fun convert(v: ItemLzkSublistBinding, t: LZKSubListModel, position: Int) {
+        v.tvGx.text = t.GXH
+        v.tvBgs.text = t.BGSL.toString()
+        v.tvHgsl.text = t.HGSL.toString()
+        v.tvBhgsl.text = t.BHGSL.toString()
+        v.tvBc.text = t.BC
+        v.tvCzg.text = t.SCRXM
+        v.tvBgrq.text = t.BGRQ
+        v.tvJyy.text = t.ZJRY
+        v.tvJyri.text = t.JYRQ
+
+        val view = LayoutInflater.from(mContext).inflate(R.layout.dialog_lzkmx, null, false)
+        view.findViewById<TextView>(R.id.tv_gx).text = t.GXH
+        view.findViewById<TextView>(R.id.tv_bgs).text = t.BGSL.toString()
+        view.findViewById<TextView>(R.id.tv_hgsl).text = t.HGSL.toString()
+        view.findViewById<TextView>(R.id.tv_bhgsl).text = t.BHGSL.toString()
+        view.findViewById<TextView>(R.id.tv_bc).text = t.BC
+        view.findViewById<TextView>(R.id.tv_czg).text = t.SCRXM
+        view.findViewById<TextView>(R.id.tv_bgrq).text = t.BGRQ
+        view.findViewById<TextView>(R.id.tv_jyy).text = t.ZJRY
+        view.findViewById<TextView>(R.id.tv_jyrq).text = t.JYRQ
+        view.findViewById<TextView>(R.id.tv_bz).text = t.BZ
+
+        val dialog = AlertDialog.Builder(mContext).setView(view).create()
+
+        v.tvCz clicks {
+            dialog.show()
+        }
+    }
+
+}

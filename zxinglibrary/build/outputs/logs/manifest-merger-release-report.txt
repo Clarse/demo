@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:1:1-13:12
+	package
+		ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:2:5-36
+		INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:1:1-13:12
+		INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:1:1-13:12
+		INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:4:1-60
+	android:name
+		ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:4:18-58
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:5:1-62
+	android:name
+		ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:5:18-60
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:6:1-61
+	android:name
+		ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:6:18-59
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:7:1-64
+	android:name
+		ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:7:18-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:9:1-76
+	android:name
+		ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:9:18-74
+application
+ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:11:5-12:19
+uses-sdk
+INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml

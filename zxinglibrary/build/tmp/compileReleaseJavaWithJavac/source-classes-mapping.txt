@@ -1,0 +1,76 @@
+com/eohi/zxinglibrary/OnCaptureListener.java
+ com.eohi.zxinglibrary.OnCaptureListener
+com/eohi/zxinglibrary/OnCaptureCallback.java
+ com.eohi.zxinglibrary.OnCaptureCallback
+com/eohi/zxinglibrary/InactivityTimer.java
+ com.eohi.zxinglibrary.InactivityTimer
+ com.eohi.zxinglibrary.InactivityTimer$InactivityAsyncTask
+ com.eohi.zxinglibrary.InactivityTimer$PowerStatusReceiver
+com/eohi/zxinglibrary/camera/open/OpenCameraInterface.java
+ com.eohi.zxinglibrary.camera.open.OpenCameraInterface
+com/eohi/zxinglibrary/CaptureLifecycle.java
+ com.eohi.zxinglibrary.CaptureLifecycle
+com/eohi/zxinglibrary/camera/open/CameraFacing.java
+ com.eohi.zxinglibrary.camera.open.CameraFacing
+com/eohi/zxinglibrary/DecodeFormatManager.java
+ com.eohi.zxinglibrary.DecodeFormatManager
+com/eohi/zxinglibrary/BuildConfig.java
+ com.eohi.zxinglibrary.BuildConfig
+com/eohi/zxinglibrary/DecodeHandler.java
+ com.eohi.zxinglibrary.DecodeHandler
+com/eohi/zxinglibrary/ViewfinderView.java
+ com.eohi.zxinglibrary.ViewfinderView
+ com.eohi.zxinglibrary.ViewfinderView$1
+ com.eohi.zxinglibrary.ViewfinderView$LaserStyle
+ com.eohi.zxinglibrary.ViewfinderView$TextLocation
+com/eohi/zxinglibrary/Intents.java
+ com.eohi.zxinglibrary.Intents
+ com.eohi.zxinglibrary.Intents$Encode
+ com.eohi.zxinglibrary.Intents$History
+ com.eohi.zxinglibrary.Intents$Scan
+ com.eohi.zxinglibrary.Intents$SearchBookContents
+ com.eohi.zxinglibrary.Intents$Share
+ com.eohi.zxinglibrary.Intents$WifiConnect
+com/eohi/zxinglibrary/util/LogUtils.java
+ com.eohi.zxinglibrary.util.LogUtils
+com/eohi/zxinglibrary/camera/CameraManager.java
+ com.eohi.zxinglibrary.camera.CameraManager
+ com.eohi.zxinglibrary.camera.CameraManager$OnSensorListener
+ com.eohi.zxinglibrary.camera.CameraManager$OnTorchListener
+com/eohi/zxinglibrary/camera/open/OpenCamera.java
+ com.eohi.zxinglibrary.camera.open.OpenCamera
+com/eohi/zxinglibrary/BeepManager.java
+ com.eohi.zxinglibrary.BeepManager
+com/eohi/zxinglibrary/util/CodeUtils.java
+ com.eohi.zxinglibrary.util.CodeUtils
+com/eohi/zxinglibrary/Preferences.java
+ com.eohi.zxinglibrary.Preferences
+com/eohi/zxinglibrary/CaptureActivity.java
+ com.eohi.zxinglibrary.CaptureActivity
+ com.eohi.zxinglibrary.CaptureActivity$1
+com/eohi/zxinglibrary/camera/FrontLightMode.java
+ com.eohi.zxinglibrary.camera.FrontLightMode
+com/eohi/zxinglibrary/CaptureFragment.java
+ com.eohi.zxinglibrary.CaptureFragment
+com/eohi/zxinglibrary/CaptureHelper.java
+ com.eohi.zxinglibrary.CaptureHelper
+com/eohi/zxinglibrary/DecodeThread.java
+ com.eohi.zxinglibrary.DecodeThread
+com/eohi/zxinglibrary/camera/CameraConfigurationUtils.java
+ com.eohi.zxinglibrary.camera.CameraConfigurationUtils
+com/eohi/zxinglibrary/CaptureManager.java
+ com.eohi.zxinglibrary.CaptureManager
+com/eohi/zxinglibrary/camera/AutoFocusManager.java
+ com.eohi.zxinglibrary.camera.AutoFocusManager
+ com.eohi.zxinglibrary.camera.AutoFocusManager$AutoFocusTask
+com/eohi/zxinglibrary/AmbientLightManager.java
+ com.eohi.zxinglibrary.AmbientLightManager
+com/eohi/zxinglibrary/CaptureTouchEvent.java
+ com.eohi.zxinglibrary.CaptureTouchEvent
+com/eohi/zxinglibrary/CaptureHandler.java
+ com.eohi.zxinglibrary.CaptureHandler
+ com.eohi.zxinglibrary.CaptureHandler$State
+com/eohi/zxinglibrary/camera/CameraConfigurationManager.java
+ com.eohi.zxinglibrary.camera.CameraConfigurationManager
+com/eohi/zxinglibrary/camera/PreviewCallback.java
+ com.eohi.zxinglibrary.camera.PreviewCallback

@@ -1,0 +1,33 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eohi.zxinglibrary"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:4:1-60
+11-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:4:18-58
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:5:1-62
+12-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:5:18-60
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:6:1-61
+13-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:6:18-59
+14    <uses-permission android:name="android.permission.FLASHLIGHT" />
+14-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:7:1-64
+14-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:7:18-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:9:1-76
+15-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:9:18-74
+16
+17    <application>
+17-->C:\Users\YH\Desktop\xiaoxiao_Honeywell\zxinglibrary\src\main\AndroidManifest.xml:11:5-12:19
+18    </application>
+19
+20</manifest>

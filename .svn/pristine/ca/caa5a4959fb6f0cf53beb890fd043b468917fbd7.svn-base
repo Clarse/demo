@@ -1,0 +1,32 @@
+package com.eohi.haixin.ui.work.process.merge
+
+import com.eohi.haixin.base.BaseFragment
+import com.eohi.haixin.base.BaseViewModel
+import com.eohi.haixin.databinding.FragmentScanMergeDetailBinding
+
+/**
+ * @author zhaoli.Wang
+ * @description:
+ * @date :2021/12/17 10:40
+ */
+class MergeDetailFragment :BaseFragment<BaseViewModel,FragmentScanMergeDetailBinding>(){
+    override fun isNeedEventBus(): Boolean {
+        return false
+    }
+
+    override fun initVM() {
+    }
+
+    override fun initView() {
+    }
+
+    override fun initClick() {
+    }
+
+    override fun initData() {
+    }
+
+    override fun lazyLoadData() {
+    }
+
+}
